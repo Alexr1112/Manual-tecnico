@@ -1,0 +1,109 @@
+/* Importar la fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Variables de color */
+:root {
+  --background-color: #F9FAFB; /* Fondo claro */
+  --primary-color: #4caf50; /* Azul vivo para acentos */
+  --text-primary: #111827; /* Texto principal */
+  --text-secondary: #6B7280; /* Texto secundario */
+  --card-background: #FFFFFF; /* Fondo de las cards */
+  --border-color: #E5E7EB; /* Bordes suaves */
+  --shadow-color: rgba(0, 0, 0, 0.05); /* Sombra ligera */
+}
+
+/* General */
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+.mainContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* Banner hero */
+.heroBanner {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.heroBanner h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.heroBanner p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+/* Sección de características */
+.features {
+  margin-top: 2rem;
+}
+
+.features h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Contenedor de las cards */
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Estilo de las cards */
+.featureCard {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px var(--shadow-color);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.featureCard:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.featureCard h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.featureCard p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.featureCard img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .heroBanner h1 {
+    font-size: 2rem;
+  }
+
+  .features h2 {
+    font-size: 1.5rem;
+  }
+}
