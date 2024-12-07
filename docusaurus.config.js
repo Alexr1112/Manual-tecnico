@@ -50,6 +50,7 @@ const config = {
       }),
     ],
   ],
+  themes: ['@docusaurus/theme-mermaid'], // Añadido aquí
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -59,7 +60,7 @@ const config = {
         title: 'HealTech',
         logo: {
           alt: 'HealTech Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {
