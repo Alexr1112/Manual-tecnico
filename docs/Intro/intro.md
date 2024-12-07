@@ -1,10 +1,7 @@
----
-sidebar_position: 1
----
 
 import { UilSetting, UilUserMd, UilUserCircle, UilClipboard, UilHospital } from '@iconscout/react-unicons';
 
-# Introduccion 
+# Introducción 
 
 
 **Heltech** es un sistema integral diseñado para optimizar la gestión de la salud pública y privada del país. Su principal objetivo es mejorar la eficiencia en la administración de clínicas, la gestión de recetas médicas y la interacción con los pacientes, ofreciendo una plataforma centralizada y moderna.

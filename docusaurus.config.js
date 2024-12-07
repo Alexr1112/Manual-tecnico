@@ -40,10 +40,6 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/healtech/manual-healtech/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl: 'https://github.com/healtech/manual-healtech/tree/main/',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -69,7 +65,6 @@ const config = {
             position: 'left',
             label: 'Documentación',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/healtech/manual-healtech',
             label: 'GitHub',
@@ -113,10 +108,6 @@ const config = {
           {
             title: 'Más',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/healtech/manual-healtech',
