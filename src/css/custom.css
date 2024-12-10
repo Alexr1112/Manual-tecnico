@@ -91,3 +91,13 @@ h1 {
 .zoomable-large:hover img {
   transform-origin: var(--mouse-x) var(--mouse-y);
 }
+
+/* Estilo de imagen para manual de usuario movil */
+.manual-movil img {
+  max-width: 300px; /* Cambia el tamaño según tus necesidades */
+  height: auto; /* Mantén la proporción */
+  border-radius: 8px; /* Opcional: agrega un borde redondeado */
+  display: block; /* Convierte la imagen en un bloque para centrarla */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+

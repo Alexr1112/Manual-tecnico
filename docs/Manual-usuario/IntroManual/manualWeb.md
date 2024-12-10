@@ -1,4 +1,4 @@
-# manual de usuarios 
+# Manual de usuario (Web)
 # [Healtech Project User Guide](https://app.tango.us/app/workflow/3898a238-4548-48df-ac8a-ea9e3ee1217b?utm_source=markdown&utm_medium=markdown&utm_campaign=workflow%20export%20links)
 
 __Creation Date:__ Dec 09, 2024  

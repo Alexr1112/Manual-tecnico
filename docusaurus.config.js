@@ -60,62 +60,65 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Documentación',
-          },
-          {
-            href: 'https://github.com/healtech/manual-healtech',
+            href: 'https://github.com/GerArg12/Healteach_RN',
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Manual Técnico  ',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'manualUsuario',
+            position: 'left',
+            label: 'Manual de usuario',
+          },
+          
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Documentación',
-            items: [
-              {
-                label: 'Introducción',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Guía de Usuario',
-                to: '/docs/user-guide',
-              },
-              {
-                label: 'API Reference',
-                to: '/docs/api',
-              },
-            ],
-          },
-          {
-            title: 'Comunidad',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/healtech',
-              },
-              {
-                label: 'Foro de Discusión',
-                href: 'https://forum.healtech.com',
-              },
-            ],
-          },
-          {
-            title: 'Más',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/healtech/manual-healtech',
-              },
-            ],
-          },
+          // {
+          //   title: 'Documentación',
+          //   items: [
+          //     {
+          //       label: 'Introducción',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'Guía de Usuario',
+          //       to: '/docs/user-guide',
+          //     },
+          //     {
+          //       label: 'API Reference',
+          //       to: '/docs/api',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Comunidad',
+          //   items: [
+          //     {
+          //       label: 'Foro de Discusión',
+          //       href: 'https://forum.healtech.com',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Más',
+          //   items: [
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/healtech/manual-healtech',
+          //     },
+          //   ],
+          // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} HealTech. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} HealTech.`,
       },
       prism: {
         theme: prismThemes.github,

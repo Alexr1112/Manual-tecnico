@@ -2,7 +2,7 @@ import { FaClipboardCheck } from 'react-icons/fa';
 
 
 
-# Tecnologia de testing (Web)
+# Tecnología de testing (Web)
 En este apartado se presentará un panorama más detallado sobre las tecnologías utilizadas para realizar pruebas automatizadas en la sección web. Además, se describirán las herramientas empleadas y los tipos de pruebas que se llevaron a cabo, ofreciendo una visión clara de cómo se garantizó la calidad y funcionalidad del proyecto.
 
 ## <FaClipboardCheck style={{ color: '#33BFA4' }} /> <span style={{ color: '#33BFA4' }}>Cypress</span>
