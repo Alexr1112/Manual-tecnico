@@ -1,7 +1,7 @@
 import { UilMap } from '@iconscout/react-unicons';
 
 
-# Módulo de Médicos (Web)
+# Módulo de Médicos (Web y Móvil)
 Por otro lado, el módulo de Médicos ofrece una vista consolidada del historial clínico de cada paciente. Esto permite a los profesionales de la salud emitir recetas de manera más informada y gestionar de forma efectiva los tratamientos en curso. De esta manera, se mejora la trazabilidad y se reduce el riesgo de errores médicos.
 
 
