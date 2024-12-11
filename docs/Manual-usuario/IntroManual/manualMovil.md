@@ -288,48 +288,6 @@ El sistema muestra información sobre hospitalizaciones previas, incluyendo las 
 
 ![Detalles de Hospitalizaciones Previas](./imagenesManualMovil/Screenshot_2024-12-09-12-58-14-982_host.exp.exponent.jpg)
 
-
-## Verificación de Código de Acceso
-En esta sección, se solicita un código de acceso de 4 dígitos para verificar el acceso al sistema.
-
-![Verificación de Código de Acceso](./imagenesManualMovil/Screenshot_2024-12-09-12-57-10-671_host.exp.exponent.jpg)
-
----
-
-## Código de Acceso Ingresado
-El usuario introduce el código de acceso generado previamente por el paciente.
-
-![Código de Acceso Ingresado](./imagenesManualMovil/Screenshot_2024-12-09-12-57-19-088_host.exp.exponent.jpg)
-
----
-
-## Justificación de Acceso
-Si el acceso se realiza sin código, se solicita justificar el motivo del acceso para registrar el evento.
-
-![Justificación de Acceso](./imagenesManualMovil/Screenshot_2024-12-09-12-57-23-854_host.exp.exponent.jpg)
-
----
-
-## Datos Personales del Paciente
-Visualización de los datos personales básicos del paciente, incluyendo dirección, nacionalidad y fecha de nacimiento.
-
-![Datos Personales del Paciente](./imagenesManualMovil/Screenshot_2024-12-09-12-57-55-460_host.exp.exponent.jpg)
-
----
-
-## Datos de Salud del Paciente
-Muestra detalles de salud como peso, altura, tipo de sangre, alergias y medicamentos crónicos.
-
-![Datos de Salud del Paciente](./imagenesManualMovil/Screenshot_2024-12-09-12-57-58-443_host.exp.exponent.jpg)
-
----
-
-## Detalles de Hospitalizaciones Previas
-Incluye información sobre fechas de ingreso y alta de hospitalizaciones anteriores.
-
-![Detalles de Hospitalizaciones Previas - 2020](./imagenesManualMovil/Screenshot_2024-12-09-12-58-11-664_host.exp.exponent.jpg)
-![Detalles de Hospitalizaciones Previas - 2022](./imagenesManualMovil/Screenshot_2024-12-09-12-58-14-982_host.exp.exponent.jpg)
-
 ---
 
 ## Historial Médico del Paciente
